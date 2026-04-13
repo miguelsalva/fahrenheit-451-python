@@ -1,0 +1,73 @@
+{
+  "connections": {
+    "plaza_ho": {
+      "northeast": null
+    },
+    "bank": {
+      "up": null
+    },
+    "bookstor": {
+      "down": null
+    },
+    "lib_entr": {
+      "up": null
+    },
+    "lib_firs": {
+      "east": null,
+      "down": null
+    },
+    "lib_roof": {
+      "north": null,
+      "south": null,
+      "down": null,
+      "southwest": null,
+      "southeast": null,
+      "northwest": null
+    },
+    "basement": {
+      "down": null
+    },
+    "office_b": {
+      "up": null
+    },
+    "undergro": {
+      "north": null,
+      "west": null,
+      "down": null
+    },
+    "radiatio": {
+      "northeast": null
+    },
+    "magic_sh": {
+      "up": null
+    },
+    "observat": {
+      "north": null
+    },
+    "second_f": {
+      "north": null,
+      "south": null,
+      "east": null,
+      "down": null
+    },
+    "fifth_av": {
+      "east": null
+    },
+    "park": {
+      "north": null,
+      "southeast": null
+    },
+    "tunnel": {
+      "southeast": null,
+      "northwest": null
+    },
+    "small_pl": {
+      "down": null,
+      "southwest": null,
+      "northwest": null
+    },
+    "post_451": {
+      "down": null
+    }
+  }
+}

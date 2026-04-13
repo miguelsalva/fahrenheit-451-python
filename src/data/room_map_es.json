@@ -1,0 +1,331 @@
+{
+  "opening": {
+    "name": "Tu Apartamento",
+    "description": "Estás en tu apartamento. Las paredes del salón están llenas de cháchara sin sentido, sus grandes pantallas parpadeando con entretenimiento vacío. Tu esposa, Mildred, yace inconsciente en la cama, su mesita de noche atestada de frascos de pastillas.\n\nAfuera, por la ventana, la ciudad arde. Los escarabajos eléctricos cantan su canción eterna. Y en tus manos, oculto en tu chaqueta de bombero, hay un libro que no puedes quemar.\n\n¿Qué harás?",
+    "exits": {
+      "north": "plaza_ho",
+      "east": "hospital",
+      "south": "lib_step"
+    }
+  },
+  "plaza_ho": {
+    "name": "Plaza del Hotel",
+    "description": "Estás en una amplia plaza frente a un viejo hotel. La fachada del edificio está cubierta de décadas de mugre. Una fuente se alza silenciosa en el centro, su cuenca agrietada y seca.\n\nEl Hound Mecánico patrulla cerca, sus ocho patas repiqueteando contra el pavimento. Puedes escuchar el zumbido constante de los sistemas eléctricos de la ciudad.",
+    "exits": {
+      "south": "opening",
+      "north": "fountain",
+      "west": "fifth_av",
+      "east": "hospital"
+    }
+  },
+  "hospital": {
+    "name": "Hospital",
+    "description": "Estás en la acera de la W57-58, frente a un hospital. Cerca hay una cabina telefónica.\n\nEste es el hospital. La entrada del hospital se abre automáticamente y entras. Doctores, enfermeras y celadores caminan rápidamente y sin sonido sobre zapatos de suela blanda por el suelo plástico antiséptico.",
+    "exits": {
+      "west": "plaza_ho",
+      "in": "phone_bo"
+    }
+  },
+  "fountain": {
+    "name": "Fuente Central",
+    "description": "Te encuentras junto a una gran fuente, alguna vez hermosa, ahora silenciosa y seca. El calor de la ciudad te hace sudar.\n\nEl Hound Mecánico pasa cerca, su nariz olfateando, percibiendo... algo. Debes tener cuidado.",
+    "exits": {
+      "south": "plaza_ho",
+      "east": "food_cen",
+      "west": "think_ta"
+    }
+  },
+  "fifth_av": {
+    "name": "Quinta Avenida",
+    "description": "Estás en la Quinta Avenida, caminando junto a las ruinas de lo que alguna vez fue el corazón cultural de la ciudad. Libros chamuscados aún llenan las cunetas.\n\nUna pantalla de televisión parpadea con entretenimiento sin mente. Auriculares parece que están pegados a los oídos de cada ciudadano.",
+    "exits": {
+      "east": "plaza_ho",
+      "north": "phantasy",
+      "south": "bookstor"
+    }
+  },
+  "phantasy": {
+    "name": "Teatro Phantasy",
+    "description": "Te encuentras frente a las ruinas del Teatro Phantasy. El letrero aún parpadea con neón: ¡VELOCIDAD! ¡SEXO! ¡VIOLENCIA! ¡ACCIÓN!\n\nEl patrola de Hounds pasa cerca. Ten cuidado. La ciudad vigila.",
+    "exits": {
+      "south": "fifth_av",
+      "east": "food_cen"
+    }
+  },
+  "food_cen": {
+    "name": "Centro de Alimentación",
+    "description": "Estás en un enorme centro de procesamiento de alimentos. El aire está cargado del olor de nutrientes sintéticos y saborizantes químicos.\n\nBrazos mecánicos empacan las comidas. Nadie cocina ya. Nadie necesita hacerlo.",
+    "exits": {
+      "west": "fountain",
+      "north": "phantasy",
+      "south": "bank"
+    }
+  },
+  "bank": {
+    "name": "Banco",
+    "description": "Estás en las ruinas de un banco. No queda nada más que una caja fuerte rota y papeles esparcidos.\n\nLos Hounds Mecánicos han estado aquí. El Patrola de Hounds ha hecho su ronda.",
+    "exits": {
+      "north": "food_cen",
+      "up": "tower",
+      "south": "jewelry"
+    }
+  },
+  "jewelry": {
+    "name": "Joyería",
+    "description": "Te encuentras en las ruinas de una joyería. El cristal cruje bajo tus pies.\n\nEn algún lugar cerca, escuchas el repiqueteo de patas de Hound. Muévete con cuidado.",
+    "exits": {
+      "north": "bank",
+      "south": "engraver"
+    }
+  },
+  "engraver": {
+    "name": "Taller del Grabador",
+    "description": "Este fue el taller de un grabador. Ahora yace en ruinas, como tanto de la ciudad.\n\nUn póster raído dice: ¡QUEMA QUEMA QUEMA LOS LIBROS ANTES DE QUE ELLOS TE QUEMEN!",
+    "exits": {
+      "north": "jewelry",
+      "west": "glass_wo"
+    }
+  },
+  "glass_wo": {
+    "name": "Fábrica de Cristal",
+    "description": "Estás en las ruinas de una fábrica de cristal. Hermosos fragmentos de cristal coloreado yacen esparcidos entre las cenizas.\n\nEl fuego que destruyó este lugar fue un accidente o una advertencia.",
+    "exits": {
+      "east": "engraver",
+      "west": "walls_pa"
+    }
+  },
+  "walls_pa": {
+    "name": "Salón de Paredes Visuales",
+    "description": "Te encuentras frente a un Salón de Paredes Visuales. A través de la ventana rota, puedes ver las enormes pantallas que alguna vez llenaron los hogares con sus paredes de salón.\n\nLas pantallas están oscuras ahora. La electricidad se cortó hace años.",
+    "exits": {
+      "east": "glass_wo",
+      "north": "magic_sh"
+    }
+  },
+  "magic_sh": {
+    "name": "Tienda de Magia",
+    "description": "Esta fue una tienda de magia. Ahora solo quedan polvo y trucos rotos.\n\nEn algún lugar a lo lejos, escuchas al patrola de Hounds comenzando sus rondas nocturnas.",
+    "exits": {
+      "south": "walls_pa",
+      "north": "treatmen"
+    }
+  },
+  "treatmen": {
+    "name": "Centro de Tratamiento",
+    "description": "Estás en un centro de tratamiento. A través de las ventanas, puedes ver pacientes conectados a máquinas, sus mentes lavadas.\n\nAquí es donde envían a los que recuerdan demasiado.",
+    "exits": {
+      "south": "magic_sh",
+      "north": "headquar"
+    }
+  },
+  "headquar": {
+    "name": "Cuartel de Bomberos",
+    "description": "Te encuentras frente al gran edificio de mármol del Departamento de Bomberos. La salamandra brilla en la fachada.\n\nEste es donde trabajas. Este es donde sirves. Este es donde se supone que debes quemar los libros.\n\nPero esta noche... esta noche es diferente.",
+    "exits": {
+      "south": "treatmen",
+      "north": "tower",
+      "east": "office_b"
+    }
+  },
+  "tower": {
+    "name": "Torre de Vigilancia",
+    "description": "Subes al techo del Departamento de Bomberos. Desde aquí, puedes ver toda la ciudad ardiendo.\n\nEl patrola de Hounds está en movimiento. Perciben algo extraño esta noche. Están cazando.",
+    "exits": {
+      "south": "headquar",
+      "down": "office_b"
+    }
+  },
+  "office_b": {
+    "name": "Oficina de Bomberos",
+    "description": "Estás en la Oficina de Bomberos. Tu casillero está aquí, tu equipo almacenado ordenadamente.\n\nTus compañeros bomberos están de patrulla esta noche. Estás solo.",
+    "exits": {
+      "up": "headquar",
+      "west": "tower"
+    }
+  },
+  "bookstor": {
+    "name": "Librería",
+    "description": "Te encuentras en las ruinas de una librería. Las cenizas de mil libros cubren el suelo.\n\nPero allí, en la esquina, lo ves: un libro que de alguna manera sobrevivió a la quema. Una copia única de Shakespeare.",
+    "exits": {
+      "north": "fifth_av",
+      "down": "den_of_t",
+      "east": "restauran"
+    }
+  },
+  "den_of_t": {
+    "name": "Guarida de Ladrones",
+    "description": "Desciendes a un sótano oculto. Este es donde se esconden los criminales: contrabandistas de libros, los que memorizan textos prohibidos, los que recuerdan.\n\nTe observan con sospecha. ¿¿Un bombero?? ¿¿Aquí??",
+    "exits": {
+      "up": "bookstor",
+      "north": "detentio"
+    }
+  },
+  "detentio": {
+    "name": "Centro de Detención",
+    "description": "Has tropezado con el Centro de Detención. El patrola de Hounds está aquí, interrogando prisioneros.\n\nDebes irte. Ahora. Antes de que te vean.",
+    "exits": {
+      "south": "den_of_t",
+      "east": "cathedra"
+    }
+  },
+  "cathedra": {
+    "name": "Catedral",
+    "description": "Te encuentras en las ruinas de una antigua catedral. Vitrales que representan santos prohibidos han sido destrozados.\n\nEn algún lugar, un coro canta. La gente de los libros se reúne aquí.",
+    "exits": {
+      "west": "detentio",
+      "south": "walkway"
+    }
+  },
+  "walkway": {
+    "name": "Pasarela Elevada",
+    "description": "Caminas por una pasarela elevada, alto sobre las calles. Los Hounds Mecánicos patrullan abajo.\n\nDesde aquí, puedes ver la Biblioteca en la distancia.",
+    "exits": {
+      "north": "cathedra",
+      "east": "lib_entr"
+    }
+  },
+  "lib_entr": {
+    "name": "Entrada de la Biblioteca",
+    "description": "Te encuentras en la entrada de la gran Biblioteca. El edificio es antiguo, lleno de conocimiento prohibido.\n\nUn letrero dice: AQUÍ YACEN LOS LIBROS QUE ARDERÁN.\n\nEste es donde se supone que debes estar. Esta es tu misión. Pero en lugar de quemar...",
+    "exits": {
+      "west": "walkway",
+      "up": "lib_step",
+      "north": "lib_guar"
+    }
+  },
+  "lib_step": {
+    "name": "Escaleras de la Biblioteca",
+    "description": "Subes los grandes escalones de la Biblioteca. Las puertas han sido soldadas cerradas, pero hay otro camino.\n\nClarisse está aquí, observando. \"Montag\", susurra. \"Has venido.\"",
+    "exits": {
+      "down": "lib_entr",
+      "up": "lib_firs",
+      "south": "opening"
+    }
+  },
+  "lib_firs": {
+    "name": "Primer Piso de la Biblioteca",
+    "description": "Estás dentro de la Biblioteca. Libros cubren cada pared, cada superficie. El olor a papel y polvo y conocimiento llena el aire.\n\nEsto es lo que te enseñaron a quemar. Pero ahora entiendes por qué debe ser salvado.",
+    "exits": {
+      "east": "lib_seco",
+      "down": "lib_step",
+      "up": "lib_rm_1"
+    }
+  },
+  "lib_seco": {
+    "name": "Segundo Piso de la Biblioteca",
+    "description": "Subes al segundo piso. Los estantes aquí contienen los libros más peligrosos: filosofía, poesía, las obras que hacen pensar a la gente.\n\nBeatty está aquí. Capitán Beatty. Tu capitán. Tu enemigo.",
+    "exits": {
+      "west": "lib_firs",
+      "up": "lib_rm_2",
+      "down": "lib_entr"
+    }
+  },
+  "lib_rm_1": {
+    "name": "Sala de Lectura 1",
+    "description": "Entras a una sala de lectura. Los libros están apilados por todas partes, en sillas, sobre mesas, esparcidos como hojas caídas.\n\nUna mujer se sienta aquí, memorizando un libro. \"Cada uno de nosotros es un libro\", susurra.",
+    "exits": {
+      "down": "lib_firs",
+      "east": "lib_rm_2"
+    }
+  },
+  "lib_rm_2": {
+    "name": "Estudio Privado",
+    "description": "Estás en un estudio privado. Los libros aquí son los más raros, los más valiosos.\n\nDebes tomar una decisión: salvar lo que puedas, o quemarlo todo.",
+    "exits": {
+      "west": "lib_rm_1",
+      "up": "lib_roof"
+    }
+  },
+  "lib_roof": {
+    "name": "Tejado de la Biblioteca",
+    "description": "Emerges onto the roof of the Library. La ciudad arde abajo. Clarisse se alza aquí, esperando.\n\n\"Debemos ir\", dice. \"Los Hounds vienen. Solo hay una salida: los túneles del metro bajo la ciudad. Pero debemos ser rápidos.\"",
+    "exits": {
+      "south": "lib_seco",
+      "down": "lib_rm_2",
+      "southwest": "subway_s"
+    }
+  },
+  "lib_guar": {
+    "name": "Puesto de Guardia",
+    "description": "Estás en el puesto de guardia. El Hound Mecánico está aquí, sus sensores escaneando en busca de libros de contrabando.\n\nSi te detecta con el libro en tu posesión...",
+    "exits": {
+      "south": "lib_entr",
+      "in": "in_hound"
+    }
+  },
+  "in_hound": {
+    "name": "Interior de la Perrera",
+    "description": "Has entrado en la Perrera de Hounds. Los perros mecánicos descansan en sus estaciones de carga, pesadillas de ocho patas de acero y veneno.\n\nEl Hound se activa. Su lengua de aguja se extiende. Te ha detectado.",
+    "exits": {
+      "out": "lib_guar"
+    }
+  },
+  "subway_s": {
+    "name": "Entrada del Metro",
+    "description": "Desciendes al metro. Los trenes no han circulado en años, pero los túneles permanecen. Y en algún lugar de esos túneles, vive la gente de los libros.\n\nClarisse toma tu mano. \"Sígueme\", dice. \"Hay un tren que aún funciona. Nos lleva fuera de la ciudad.\"",
+    "exits": {
+      "northeast": "lib_roof",
+      "north": "station_",
+      "down": "basement"
+    }
+  },
+  "station_": {
+    "name": "Estación de Metro",
+    "description": "Estás en una estación de metro abandonada. Los trenes están a oscuras, sus destinos hace mucho olvidados.\n\nPero allí, en la distancia, ves una luz. Un tren viene.",
+    "exits": {
+      "south": "subway_s",
+      "east": "subway_c"
+    }
+  },
+  "subway_c": {
+    "name": "Vagón de Metro",
+    "description": "Subes a un antiguo vagón de metro. La puerta sisea cerrándose detrás de ti.\n\nClarisse tira de una palanca. El tren se sacude hacia adelante, llevándote lejos de la ciudad ardiente, hacia una nueva vida entre la gente de los libros.",
+    "exits": {
+      "west": "station_"
+    }
+  },
+  "basement": {
+    "name": "Refugio Subterráneo",
+    "description": "Desciendes a un refugio subterráneo. Este es donde la gente de los libros almacena sus tesoros: libros que han memorizado, libros que han salvado de las llamas.\n\nTe dan la bienvenida aquí. Ahora eres uno de ellos.",
+    "exits": {
+      "up": "subway_s",
+      "north": "undergro"
+    }
+  },
+  "undergro": {
+    "name": "Hogar Subterráneo",
+    "description": "Estás en el hogar subterráneo de la gente de los libros. Hombres y mujeres se sientan en círculos, cada uno recitando un libro diferente de memoria.\n\nAsí es como salvan los libros: no en papel, sino en personas. Libros vivos. Los únicos libros seguros.",
+    "exits": {
+      "south": "basement",
+      "west": "radiatio"
+    }
+  },
+  "radiatio": {
+    "name": "Zona de Radiación",
+    "description": "Has entrado en la zona de radiación. La ciudad arde detrás de ti. Adelante solo hay ruinas.\n\nPero aún hay esperanza. Mientras haya personas que recuerden los libros, los libros nunca pueden morir verdaderamente.",
+    "exits": {
+      "east": "undergro"
+    }
+  },
+  "phone_bo": {
+    "name": "Cabina Telefónica",
+    "description": "Estás en una cabina telefónica. El teléfono está muerto, pero notas algo: un papel con un número escrito.\n\nDice: TELÉFONO NYC-451.",
+    "exits": {
+      "out": "hospital"
+    }
+  },
+  "restauran": {
+    "name": "Restaurante",
+    "description": "Te encuentras en las ruinas de un restaurante. La cocina está en silencio, los hornos fríos.\n\nUn aparato de TV parpadea en la esquina, mostrando el mismo entretenimiento sin mente que llena cada hogar.",
+    "exits": {
+      "west": "bookstor"
+    }
+  },
+  "think_ta": {
+    "name": "Rincón de Reflexión",
+    "description": "Te encuentras en un pequeño parque. Un banco lee: PARA. PIENSA. GUARD SILENCIO.\n\nEste es un rincón de reflexión. Lugares como este fueron prohibidos hace mucho. Solo los ancianos los recuerdan.",
+    "exits": {
+      "south": "fountain"
+    }
+  }
+}

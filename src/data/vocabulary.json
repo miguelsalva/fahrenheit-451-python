@@ -1,0 +1,610 @@
+{
+  "vocabulary": {
+    "header": "530ae74e3c008b000f01ed015802ac02",
+    "words": [
+      "i<",
+      "alle1",
+      "apars",
+      "appr",
+      "areaN",
+      "artiP",
+      "atte",
+      "aven",
+      "and",
+      "ask#",
+      "an",
+      "a",
+      "bank-card",
+      "books",
+      "butte",
+      "buttoX",
+      "bank",
+      "base",
+      "bibln",
+      "blak",
+      "book;",
+      "bootS",
+      "brad",
+      "breaQ",
+      "buil4",
+      "burn)",
+      "big",
+      "boxd",
+      "but",
+      "buy",
+      "crystalw",
+      "crystarR",
+      "counte@",
+      "condi",
+      "condua",
+      "conte$",
+      "contrV",
+      "countS",
+      "cabi",
+      "cabl}",
+      "calc",
+      "came",
+      "card",
+      "carr",
+      "cash",
+      "cass[",
+      "cath",
+      "cent8",
+      "checV",
+      "chem",
+      "chip",
+      "clar\\",
+      "cler9",
+      "clim",
+      "clip",
+      "clos",
+      "cook",
+      "corn%",
+      "crea=",
+      "car",
+      "dicki",
+      "doorwh",
+      "desc",
+      "desiC",
+      "dial",
+      "dick",
+      "dispc",
+      "door2",
+      "down",
+      "drai_",
+      "drin",
+      "drop",
+      "dot<",
+      "dn",
+      "d",
+      "eass",
+      "east",
+      "eccl",
+      "elevI",
+      "empo",
+      "empt/",
+      "ente",
+      "exam",
+      "exhiu",
+      "exit",
+      "eat",
+      "e",
+      "face>",
+      "feelN",
+      "figh",
+      "fing",
+      "five",
+      "flow^",
+      "follL",
+      "food",
+      "fork",
+      "form",
+      "fost",
+      "founj",
+      "four",
+      "for",
+      "glasse",
+      "glasswv",
+      "glass",
+      "grate*",
+      "grati*",
+      "give",
+      "guar7",
+      "get",
+      "go",
+      "hand6",
+      "hang4",
+      "heat(",
+      "hold:",
+      "hole?",
+      "hosp",
+      "hote-",
+      "houne",
+      "hatA",
+      "her",
+      "him",
+      "his",
+      "inse$",
+      "insp",
+      "into",
+      "inve",
+      "inv",
+      "its",
+      "id",
+      "in",
+      "it",
+      "jabb",
+      "jack",
+      "jump;",
+      "kick",
+      "killM",
+      "kiosm",
+      "kiss2",
+      "knif",
+      "knocO",
+      "lightersb",
+      "lighter",
+      "lockers#",
+      "leaves,",
+      "locker\"",
+      "leave",
+      "labeW",
+      "lase",
+      "leap9",
+      "libr",
+      "lift",
+      "list",
+      "lobb.",
+      "loca",
+      "lockG",
+      "look!",
+      "loun!",
+      "love1",
+      "loc",
+      "magazinesk",
+      "magazine ",
+      "machiao",
+      "machinO",
+      "microc[",
+      "microf|",
+      "masks=",
+      "make ",
+      "manh",
+      "manu",
+      "mask",
+      "melv",
+      "meta&",
+      "mone",
+      "mura",
+      "manM",
+      "my",
+      "northe",
+      "northw",
+      "north",
+      "nyc-",
+      "near",
+      "newd>",
+      "nurs",
+      "ne",
+      "no0",
+      "nw",
+      "n",
+      "obse*",
+      "offi{",
+      "open",
+      "oper",
+      "orde%",
+      "off",
+      "one",
+      "out",
+      "on",
+      "paper-clip",
+      "picturesof@",
+      "picturesonC",
+      "paper",
+      "padlG",
+      "pain",
+      "paneZ",
+      "parl",
+      "perm",
+      "phan",
+      "phon",
+      "(",
+      "pick",
+      "pilef",
+      "platp",
+      "plaz",
+      "pockK",
+      "pondg",
+      "pope",
+      "pres",
+      "puncB",
+      "purc",
+      "push",
+      "pay&",
+      "pit",
+      "put",
+      "quitD",
+      "restarE",
+      "restau",
+      "restoF",
+      "rackl",
+      "rais\"",
+      "rampJ",
+      "reac'",
+      "read",
+      "rece`",
+      "remeW",
+      "remo+",
+      "repe",
+      "rideP",
+      "rifl7",
+      "rile",
+      "ring",
+      "roboy",
+      "roomi",
+      "rat'",
+      "run8",
+      "spyglasse)",
+      "spyglass",
+      "southe",
+      "southw",
+      "south",
+      "surro!",
+      "saveG",
+      "screT",
+      "setu?",
+      "shakr",
+      "shoo6",
+      "shopD",
+      "show",
+      "sign5",
+      "sleeT",
+      "slot",
+      "some",
+      "spamJ",
+      "sparH",
+      "spea",
+      "spirB",
+      "spoo",
+      "staiz",
+      "stat",
+      "step~",
+      "stic",
+      "storU",
+      "stre",
+      "subw3",
+      "surr!",
+      "swim5",
+      "say",
+      "sit,",
+      "se",
+      "sw",
+      "s",
+      "traceofI",
+      "traceonH",
+      "things",
+      "thing",
+      "tackA",
+      "take",
+      "talk#",
+      "tape[",
+      "term:",
+      "tetr",
+      "thei",
+      "then",
+      "thes",
+      "thorq",
+      "thos",
+      "thre",
+      "thro0",
+      "tiff",
+      "timeR",
+      "touc",
+      "towa",
+      "towe",
+      "trai",
+      "tran]",
+      "trap",
+      "the",
+      "two",
+      "to",
+      "unde",
+      "ungat",
+      "unlo3",
+      "use",
+      "up",
+      "u",
+      "wafer-1",
+      "wafer-2",
+      "wafer-3",
+      "wafer-4",
+      "wafer-5",
+      "windowsF",
+      "windowE",
+      "waite",
+      "waiti",
+      "wait",
+      "walk",
+      "wallU",
+      "washK",
+      "watc-",
+      "wate+",
+      "wear.",
+      "west",
+      "whal",
+      "whil",
+      "with",
+      "womaL",
+      "workx",
+      "worlQ",
+      "w",
+      "yes/",
+      "*INT",
+      "*stringY",
+      "*unknown",
+      ",",
+      ".",
+      ";"
+    ],
+    "categories": {}
+  },
+  "room_index": {
+    "park": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "tunnel": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "small_pl": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "plaza_ho": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "fountain": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "basement": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "subway_s": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "lounge": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "eighth_f": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "phantasy": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "fifth_av": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "hospital": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "hounds_b": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "patrol_4": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "in_hound": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "station_": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "subway_c": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "engraver": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "jewelry_": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "food_cen": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "tower": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "treatmen": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "headquar": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "tiffanys": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "apartmen": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "bookstor": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "lib_step": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "restaura": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "den_of_t": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "detentio": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "cathedra": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "walkway": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "magic_sh": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "walls_pa": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "glass_wo": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "lib_entr": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "think_ta": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "bank": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "power_ce": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "office_b": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "undergro": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "radiatio": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "post_451": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "closed_c": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "closed_b": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "closed_t": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "phone_bo": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "observat": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "second_f": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "forty_th": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "cell_blo": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "lib_seco": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "lib_rm_2": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "lib_roof": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "lib_firs": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "lib_rm_1": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "question": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "hound_pa": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "lib_guar": {
+      "prefix": "b",
+      "type": "binary"
+    },
+    "memory": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "obj_dscp": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "check_id": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "opening": {
+      "prefix": "a",
+      "type": "area"
+    },
+    "phone_me": {
+      "prefix": "a",
+      "type": "area"
+    }
+  }
+}

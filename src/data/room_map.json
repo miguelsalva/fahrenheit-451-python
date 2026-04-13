@@ -1,0 +1,331 @@
+{
+  "opening": {
+    "name": "Your Apartment",
+    "description": "You are standing in your apartment. The parlour walls are alive with mindless chatter, their giant screens flickering with mindless entertainment. Your wife, Mildred, lies unconscious on the bed, her nightstand table cluttered with pill bottles.\n\nOutside your window, the city burns. The electric beetles hum their eternal song. And in your hands, hidden in your firefighter's jacket, is a book that you cannot bring yourself to burn.",
+    "exits": {
+      "north": "plaza_ho",
+      "east": "hospital",
+      "south": "lib_step"
+    }
+  },
+  "plaza_ho": {
+    "name": "Plaza Hotel",
+    "description": "You are in a wide plaza in front of an old hotel. The building's facade is covered in the grime of decades. A fountain stands silent in the center, its basin cracked and dry.\n\nThe mechanical Hound patrols nearby, its eight legs clicking against the pavement. You can hear the constant hum of the city's electrical systems.",
+    "exits": {
+      "south": "opening",
+      "north": "fountain",
+      "west": "fifth_av",
+      "east": "hospital"
+    }
+  },
+  "hospital": {
+    "name": "Hospital",
+    "description": "You are on the sidewalk of W57-58, in front of a hospital. Nearby is a phone booth.\n\nThis is the hospital. The hospital entrance slides open automatically, and you go in. Doctors, nurses, and orderlies walk rapidly and soundlessly on soft-soled shoes across the plastic antiseptic floor.",
+    "exits": {
+      "west": "plaza_ho",
+      "in": "phone_bo"
+    }
+  },
+  "fountain": {
+    "name": "Central Fountain",
+    "description": "You stand beside a great fountain, once beautiful, now silent and dry. The city's heat makes you sweat.\n\nThe Mechanical Hound passes by, its nose twitching, sensing... something. You must be careful.",
+    "exits": {
+      "south": "plaza_ho",
+      "east": "food_cen",
+      "west": "think_ta"
+    }
+  },
+  "fifth_av": {
+    "name": "Fifth Avenue",
+    "description": "You are on Fifth Avenue, walking past the ruins of what was once the cultural heart of the city. Charred books still litter the gutters.\n\nA television screen flickers with mindless entertainment. Seashell ear-thimbles seem glued to every citizen's ears.",
+    "exits": {
+      "east": "plaza_ho",
+      "north": "phantasy",
+      "south": "bookstor"
+    }
+  },
+  "phantasy": {
+    "name": "Phantasy Theater",
+    "description": "You stand before the ruins of the Phantasy Theater. The sign still flickers with neon: SPEED! SEX! VIOLENCE! ACTION!\n\nThe Hound patrol passes by. Be careful. The city watches.",
+    "exits": {
+      "south": "fifth_av",
+      "east": "food_cen"
+    }
+  },
+  "food_cen": {
+    "name": "Food Center",
+    "description": "You are in a massive food processing center. The air is thick with the smell of synthetic nutrients and chemical flavoring.\n\nMechanical arms package the meals. No one cooks anymore. No one needs to.",
+    "exits": {
+      "west": "fountain",
+      "north": "phantasy",
+      "south": "bank"
+    }
+  },
+  "bank": {
+    "name": "Bank",
+    "description": "You are in the ruins of a bank. Nothing remains but a cracked safe and scattered papers.\n\nThe Mechanical Hounds have been here. The Hound Patrol has made its rounds.",
+    "exits": {
+      "north": "food_cen",
+      "up": "tower",
+      "south": "jewelry"
+    }
+  },
+  "jewelry": {
+    "name": "Jewelry Store",
+    "description": "You stand in the ruins of a jewelry store. Glass crunches under your feet.\n\nSomewhere nearby, you hear the clicking of Hound legs. Move carefully.",
+    "exits": {
+      "north": "bank",
+      "south": "engraver"
+    }
+  },
+  "engraver": {
+    "name": "Engraver's Shop",
+    "description": "This was an engraver's shop. Now it lies in ruins, like so much of the city.\n\nA tattered poster reads: BURN BURN BURN THE BOOKS BEFORE THEY BURN YOU",
+    "exits": {
+      "north": "jewelry",
+      "west": "glass_wo"
+    }
+  },
+  "glass_wo": {
+    "name": "Glass Works",
+    "description": "You are in the ruins of a glass works. Beautiful shards of colored glass lie scattered among the ashes.\n\nThe fire that destroyed this place was either an accident or a warning.",
+    "exits": {
+      "east": "engraver",
+      "west": "walls_pa"
+    }
+  },
+  "walls_pa": {
+    "name": "Wall Display Parlor",
+    "description": "You stand before a Wall Display Parlor. Through the shattered window, you can see the giant screens that once filled homes with their parlour walls.\n\nThe screens are dark now. The power has been out for years.",
+    "exits": {
+      "east": "glass_wo",
+      "north": "magic_sh"
+    }
+  },
+  "magic_sh": {
+    "name": "Magic Shop",
+    "description": "This was a magic shop. Now only dust and broken tricks remain.\n\nSomewhere in the distance, you hear the Hound patrol beginning its nightly rounds.",
+    "exits": {
+      "south": "walls_pa",
+      "north": "treatmen"
+    }
+  },
+  "treatmen": {
+    "name": "Treatment Center",
+    "description": "You are at a treatment center. Through the windows, you can see patients hooked up to machines, their minds scrubbed clean.\n\nThis is where they send those who remember too much.",
+    "exits": {
+      "south": "magic_sh",
+      "north": "headquar"
+    }
+  },
+  "headquar": {
+    "name": "Fire Department Headquarters",
+    "description": "You stand before the great marble building of the Fire Department. The salamander gleams on the facade.\n\nThis is where you work. This is where you serve. This is where you are supposed to burn the books.\n\nBut tonight... tonight is different.",
+    "exits": {
+      "south": "treatmen",
+      "north": "tower",
+      "east": "office_b"
+    }
+  },
+  "tower": {
+    "name": "Watchtower",
+    "description": "You climb to the roof of the Fire Department. From here, you can see the whole city burning.\n\nThe Hound patrol is on the move. They sense something wrong tonight. They are hunting.",
+    "exits": {
+      "south": "headquar",
+      "down": "office_b"
+    }
+  },
+  "office_b": {
+    "name": "Firefighter's Office",
+    "description": "You are in the Firefighter's Office. Your locker is here, your equipment stored neatly.\n\nYour fellow firefighters are on patrol tonight. You are alone.",
+    "exits": {
+      "up": "headquar",
+      "west": "tower"
+    }
+  },
+  "bookstor": {
+    "name": "Bookstore",
+    "description": "You stand in the ruins of a bookstore. The ashes of a thousand books litter the floor.\n\nBut there, in the corner, you see it: a book that somehow survived the burning. A single copy of Shakespeare.",
+    "exits": {
+      "north": "fifth_av",
+      "down": "den_of_t",
+      "east": "restauran"
+    }
+  },
+  "den_of_t": {
+    "name": "Den of Thieves",
+    "description": "You descend into a hidden basement. This is where the criminals hide: book smugglers, those who memorize forbidden texts, those who remember.\n\nThey eye you with suspicion. A firefighter? Here?",
+    "exits": {
+      "up": "bookstor",
+      "north": "detentio"
+    }
+  },
+  "detentio": {
+    "name": "Detention Center",
+    "description": "You have stumbled into the Detention Center. The Hound patrol is here, interrogating prisoners.\n\nYou must leave. Now. Before they see you.",
+    "exits": {
+      "south": "den_of_t",
+      "east": "cathedra"
+    }
+  },
+  "cathedra": {
+    "name": "Cathedral",
+    "description": "You stand in the ruins of an ancient cathedral. Stained glass windows depicting forbidden saints have been smashed.\n\nSomewhere, a choir is singing. The book people meet here.",
+    "exits": {
+      "west": "detentio",
+      "south": "walkway"
+    }
+  },
+  "walkway": {
+    "name": "Elevated Walkway",
+    "description": "You walk along an elevated walkway, high above the streets. The mechanical Hounds patrol below.\n\nFrom here, you can see the Library in the distance.",
+    "exits": {
+      "north": "cathedra",
+      "east": "lib_entr"
+    }
+  },
+  "lib_entr": {
+    "name": "Library Entrance",
+    "description": "You stand at the entrance to the great Library. The building is ancient, full of forbidden knowledge.\n\nA sign reads: HERE LIE THE BOOKS THAT SHALL BURN.\n\nThis is where you are supposed to be. This is your assignment. But instead of burning...",
+    "exits": {
+      "west": "walkway",
+      "up": "lib_step",
+      "north": "lib_guar"
+    }
+  },
+  "lib_step": {
+    "name": "Library Steps",
+    "description": "You climb the great steps of the Library. The doors have been welded shut, but there is another way.\n\nClarisse is here, watching. 'Montag,' she whispers. 'You've come.'",
+    "exits": {
+      "down": "lib_entr",
+      "up": "lib_firs",
+      "south": "opening"
+    }
+  },
+  "lib_firs": {
+    "name": "Library First Floor",
+    "description": "You are inside the Library. Books line every wall, every surface. The smell of paper and dust and knowledge fills the air.\n\nThis is what you were trained to burn. But now you understand why it must be saved.",
+    "exits": {
+      "east": "lib_seco",
+      "down": "lib_step",
+      "up": "lib_rm_1"
+    }
+  },
+  "lib_seco": {
+    "name": "Library Second Floor",
+    "description": "You climb to the second floor. The shelves here contain the most dangerous books: philosophy, poetry, the works that make people think.\n\nBeatty is here. Captain Beatty. Your captain. Your enemy.",
+    "exits": {
+      "west": "lib_firs",
+      "up": "lib_rm_2",
+      "down": "lib_entr"
+    }
+  },
+  "lib_rm_1": {
+    "name": "Library Room 1",
+    "description": "You enter a reading room. Books are stacked everywhere, in chairs, on tables, scattered like fallen leaves.\n\nA woman sits here, memorizing a book. 'Each one of us is a book,' she whispers.",
+    "exits": {
+      "down": "lib_firs",
+      "east": "lib_rm_2"
+    }
+  },
+  "lib_rm_2": {
+    "name": "Library Room 2",
+    "description": "You are in a private study. The books here are the rarest, the most valuable.\n\nYou must make a choice: save what you can, or burn it all.",
+    "exits": {
+      "west": "lib_rm_1",
+      "up": "lib_roof"
+    }
+  },
+  "lib_roof": {
+    "name": "Library Roof",
+    "description": "You emerge onto the roof of the Library. The city burns below. Clarisse stands here, waiting.\n\n'We must go,' she says. 'The Hounds are coming. There is only one way out: the subway tunnels beneath the city. But we must be quick.'",
+    "exits": {
+      "south": "lib_seco",
+      "down": "lib_rm_2",
+      "southwest": "subway_s"
+    }
+  },
+  "lib_guar": {
+    "name": "Library Guard Station",
+    "description": "You are at the guard station. The Mechanical Hound is here, its sensors scanning for contraband books.\n\nIf it detects you with the book in your possession...",
+    "exits": {
+      "south": "lib_entr",
+      "in": "in_hound"
+    }
+  },
+  "in_hound": {
+    "name": "Inside the Hound Kennel",
+    "description": "You have entered the Hound Kennel. The mechanical dogs rest in their charging stations, eight-legged nightmares of steel and poison.\n\nThe Hound activates. Its needle-tongue extends. It has detected you.",
+    "exits": {
+      "out": "lib_guar"
+    }
+  },
+  "subway_s": {
+    "name": "Subway Entrance",
+    "description": "You descend into the subway. The trains haven't run in years, but the tunnels remain. And somewhere in those tunnels, the book people live.\n\nClarisse takes your hand. 'Follow me,' she says. 'There's a train that still runs. It takes us out of the city.'",
+    "exits": {
+      "northeast": "lib_roof",
+      "north": "station_",
+      "down": "basement"
+    }
+  },
+  "station_": {
+    "name": "Subway Station",
+    "description": "You are in an abandoned subway station. The trains are dark, their destinations long forgotten.\n\nBut there, in the distance, you see a light. A train is coming.",
+    "exits": {
+      "south": "subway_s",
+      "east": "subway_c"
+    }
+  },
+  "subway_c": {
+    "name": "Subway Car",
+    "description": "You climb aboard an ancient subway car. The door hisses shut behind you.\n\nClarisse pulls a lever. The train lurches forward, carrying you away from the burning city, toward a new life among the book people.",
+    "exits": {
+      "west": "station_"
+    }
+  },
+  "basement": {
+    "name": "Underground Bunker",
+    "description": "You descend into an underground bunker. This is where the book people store their treasures: books they have memorized, books they have saved from the flames.\n\nThey welcome you here. You are one of them now.",
+    "exits": {
+      "up": "subway_s",
+      "north": "undergro"
+    }
+  },
+  "undergro": {
+    "name": "Underground Home",
+    "description": "You are in the underground home of the book people. Men and women sit in circles, each one reciting a different book from memory.\n\nThis is how they save the books: not on paper, but in people. Living books. The only safe books.",
+    "exits": {
+      "south": "basement",
+      "west": "radiatio"
+    }
+  },
+  "radiatio": {
+    "name": "Radiation Zone",
+    "description": "You have entered the radiation zone. The city burns behind you. Ahead lies only ruin.\n\nBut there is still hope. As long as there are people who remember the books, the books can never truly die.",
+    "exits": {
+      "east": "undergro"
+    }
+  },
+  "phone_bo": {
+    "name": "Phone Booth",
+    "description": "You are in a phone booth. The phone is dead, but you notice something: a piece of paper with a number written on it.\n\nIt reads: PHONE NYC-451.",
+    "exits": {
+      "out": "hospital"
+    }
+  },
+  "restauran": {
+    "name": "Restaurant",
+    "description": "You stand in the ruins of a restaurant. The kitchen is silent, the ovens cold.\n\nA TV set flickers in the corner, showing the same mindless entertainment that fills every home.",
+    "exits": {
+      "west": "bookstor"
+    }
+  },
+  "think_ta": {
+    "name": "Thinking Spot",
+    "description": "You stand in a small park. A bench reads: STOP. THINK. BE SILENT.\n\nThis is a thinking spot. Places like this were outlawed long ago. Only the old ones remember them.",
+    "exits": {
+      "south": "fountain"
+    }
+  }
+}

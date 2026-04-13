@@ -1,0 +1,96 @@
+{
+  "language": "english",
+  "ui": {
+    "title": "FAHRENHEIT 451",
+    "subtitle": "Terminal Text Adventure",
+    "press_enter": "Press ENTER to start your adventure...",
+    "thanks_playing": "Thanks for playing Fahrenheit 451!",
+    "memory_forever": "Your memory will burn forever in the minds of those who read."
+  },
+  "intro": {
+    "title": "FAHRENHEIT 451\n\nBased on the novel by Ray Bradbury\nWritten by Len Neufeld and Byron Preiss\nTelarium 1984\n\n[Terminal Recreation Version]",
+    "text": "The glowing salamander on your helmet burns against the dark.\nYou are a firefighter in a world where firemen burn books\nand the population is kept docile through wall-sized television\nscreens. But tonight, something is different. Tonight, you\nhave taken a book... and you cannot burn it."
+  },
+  "opening": {
+    "text": "You are standing in your apartment. The parlour walls are alive\nwith mindless chatter, their giant screens flickering with\nmindless entertainment. Your wife, Mildred, lies unconscious\non the bed, her nightstand table cluttered with pill bottles.\n\nOutside your window, the city burns. The electric beetles\nhum their eternal song. And in your hands, hidden in your\nfirefighter's jacket, is a book that you cannot bring yourself\nto burn.\n\nWhat will you do?"
+  },
+  "commands": {
+    "go_where": "Go where?",
+    "examine_what": "Examine what?",
+    "take_what": "Take what?",
+    "drop_what": "Drop what?",
+    "use_what": "Use what?",
+    "say_what": "Say what?",
+    "unknown_command": "I beg your pardon?",
+    "unknown_verb": "I don't know how to '{verb}'.",
+    "try_commands": "Try: LOOK, EXAMINE, INVENTORY, GO, TAKE, DROP, SPEAK, or HELP",
+    "carrying": "You are carrying:",
+    "empty_handed": "You are empty-handed.",
+    "you_take": "You take the {item}.",
+    "you_drop": "You drop the {item}.",
+    "dont_see": "You don't see any '{item}' here.",
+    "not_carrying": "You aren't carrying any '{item}'.",
+    "cant_go": "You can't go {direction} from here.",
+    "no_exits": "There are no obvious exits.",
+    "exits": "Exits: {directions}",
+    "say_something": "You say '{words}'.",
+    "dialogue_not_impl": "(Dialogue system not yet fully implemented.)",
+    "consider_using": "You consider using the {item}.",
+    "not_implemented": "(This action is not yet implemented.)"
+  },
+  "help": {
+    "title": "FAHRENHEIT 451 - HELP",
+    "commands_title": "COMMANDS:",
+    "look_cmd": "LOOK (L)      - Examine your surroundings",
+    "go_cmd": "GO <dir>      - Walk in a direction (NORTH, SOUTH, EAST, WEST)",
+    "move_cmd": "N, S, E, W    - Quick movement",
+    "examine_cmd": "EXAMINE <obj> - Look at something closely",
+    "take_cmd": "TAKE <obj>    - Pick up an object",
+    "drop_cmd": "DROP <obj>    - Put down an object",
+    "inventory_cmd": "INVENTORY (I) - See what you're carrying",
+    "say_cmd": "SAY \"text\"    - Speak to someone",
+    "use_cmd": "USE <obj>     - Use an object",
+    "save_cmd": "SAVE          - Save your game",
+    "load_cmd": "LOAD          - Load your saved game",
+    "restart_cmd": "RESTART       - Start over",
+    "quit_cmd": "QUIT          - Exit the game",
+    "tips_title": "TIPS:",
+    "tip1": "- Read descriptions carefully",
+    "tip2": "- Objects may be used in unexpected ways",
+    "tip3": "- Talk to characters with SAY \"words\"",
+    "tip4": "- Remember: books are dangerous in this world"
+  },
+  "endings": {
+    "death_1": "The Mechanical Hound's needle-tongue strikes your neck.\nThe poison races through your veins. Darkness takes you.\n\nYou are dead.\n\nThe firemen will burn your house tomorrow. Your wife will\nforget you ever existed. And the books... the books will\nburn forever.",
+    "death_2": "The Hound Patrol has found you. Before you can react,\na squadron of firemen storm the building. You are\nsurrounded, arrested, and taken to the detention center.\n\nThe trials are brief. The verdict is always the same.\nYou are sentenced to death by burning.",
+    "escape": "You climb aboard the speeding subway train as it plunges\ninto the darkness. The rails sing beneath your feet.\nAnd then, slowly, the train rises above the city.\n\nThere, on the outskirts, you see them: the book people.\nMen and women who have memorized the greatest works of\nliterature, who have become living books. They welcome you\namong them.\n\nClarisse is there, smiling. \"We are the salt of the earth,\"\nshe says. \"We are the ones who remember.\"\n\nYou have escaped the burning world.",
+    "failure": "You tried to save the books, but in the end, they burned\nall the same. The fire department has been expanded.\nMore Hounds patrol the streets. More citizens are\narrested and burned.\n\nThe world grows darker. And the flames never stop."
+  },
+  "verbs": {
+    "look": "look",
+    "walk": "walk",
+    "examine": "examine",
+    "inventory": "inventory",
+    "take": "take",
+    "drop": "drop",
+    "use": "use",
+    "speak": "speak",
+    "help": "help",
+    "save": "save",
+    "load": "load",
+    "restart": "restart",
+    "quit": "quit"
+  },
+  "directions": {
+    "north": "north",
+    "south": "south",
+    "east": "east",
+    "west": "west",
+    "up": "up",
+    "down": "down",
+    "northeast": "northeast",
+    "northwest": "northwest",
+    "southeast": "southeast",
+    "southwest": "southwest"
+  }
+}

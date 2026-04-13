@@ -1,0 +1,96 @@
+{
+  "language": "spanish",
+  "ui": {
+    "title": "FAHRENHEIT 451",
+    "subtitle": "Aventura de Texto para Terminal",
+    "press_enter": "Pulsa ENTER para comenzar tu aventura...",
+    "thanks_playing": "¡Gracias por jugar Fahrenheit 451!",
+    "memory_forever": "Tu memoria arderá para siempre en la mente de quienes lean."
+  },
+  "intro": {
+    "title": "FAHRENHEIT 451\n\nBasado en la novela de Ray Bradbury\nEscrita por Len Neufeld y Byron Preiss\nTelarium 1984\n\n[Versión Recreada para Terminal]",
+    "text": "La salamandra brillante de tu casco arde contra la oscuridad.\nEres un bombero en un mundo donde los bomberos queman libros\ny la población se mantiene dócil a través de pantallas de\ntelevisión del tamaño de paredes. Pero esta noche, algo es\ndistinto. Esta noche, has tomado un libro... y no puedes\nquemarlo."
+  },
+  "opening": {
+    "text": "Estás en tu apartamento. Las paredes del salón están\nllenas de cháchara sin sentido, sus grandes pantallas\nparpadeando con entretenimiento sin mente. Tu esposa,\nMildred, yace inconsciente en la cama, su mesita de noche\natestada de frascos de pastillas.\n\nAfuera, por la ventana, la ciudad arde. Los escarabajos\neléctricos cantan su canción eterna. Y en tus manos,\noculto en tu chaqueta de bombero, hay un libro que no\npuedes quemar.\n\n¿Qué harás?"
+  },
+  "commands": {
+    "go_where": "¿Ir a dónde?",
+    "examine_what": "¿Examinar qué?",
+    "take_what": "¿Tomar qué?",
+    "drop_what": "¿Soltar qué?",
+    "use_what": "¿Usar qué?",
+    "say_what": "¿Decir qué?",
+    "unknown_command": "¿Cómo dices?",
+    "unknown_verb": "No sé cómo '{verb}'.",
+    "try_commands": "Prueba: MIRAR, EXAMINAR, INVENTARIO, IR, TOMAR, SOLTAR, HABLAR, o AYUDA",
+    "carrying": "Llevas encima:",
+    "empty_handed": "No llevas nada.",
+    "you_take": "Coges el/la {item}.",
+    "you_drop": "Dejas el/la {item}.",
+    "dont_see": "No ves ningún '{item}' por aquí.",
+    "not_carrying": "No llevas ningún '{item}'.",
+    "cant_go": "No puedes ir {direction} desde aquí.",
+    "no_exits": "No hay salidas evidentes.",
+    "exits": "Salidas: {directions}",
+    "say_something": "Dices '{words}'.",
+    "dialogue_not_impl": "(Sistema de diálogo aún no implementado.)",
+    "consider_using": "Consideras usar el/la {item}.",
+    "not_implemented": "(Esta acción aún no está implementada.)"
+  },
+  "help": {
+    "title": "FAHRENHEIT 451 - AYUDA",
+    "commands_title": "COMANDOS:",
+    "look_cmd": "MIRAR (M)      - Examinar tu entorno",
+    "go_cmd": "IR <dirección> - Caminar en una dirección (NORTE, SUR, ESTE, OESTE)",
+    "move_cmd": "N, S, E, O     - Movimiento rápido",
+    "examine_cmd": "EXAMINAR <obj> - Mirar algo de cerca",
+    "take_cmd": "TOMAR <obj>   - Coger un objeto",
+    "drop_cmd": "SOLTAR <obj>  - Dejar un objeto",
+    "inventory_cmd": "INVENTARIO (I) - Ver qué llevas",
+    "say_cmd": "DECIR \"texto\" - Hablar con alguien",
+    "use_cmd": "USAR <obj>    - Usar un objeto",
+    "save_cmd": "GUARDAR       - Guardar partida",
+    "load_cmd": "CARGAR         - Cargar partida guardada",
+    "restart_cmd": "REINICIAR     - Empezar de nuevo",
+    "quit_cmd": "SALIR         - Salir del juego",
+    "tips_title": "CONSEJOS:",
+    "tip1": "- Lee las descripciones con atención",
+    "tip2": "- Los objetos pueden usarse de formas inesperadas",
+    "tip3": "- Habla con los personajes usando DECIR \"palabras\"",
+    "tip4": "- Recuerda: los libros son peligrosos en este mundo"
+  },
+  "endings": {
+    "death_1": "La lengua de aguja del Hound Mecánico atraviesa tu cuello.\nEl veneno corre por tus venas. La oscuridad te consume.\n\nEstás muerto.\n\nLos bomberos quemarán tu casa mañana. Tu esposa\nolvidará que exististe. Y los libros... los libros arderán\npara siempre.",
+    "death_2": "El Patrola de Hounds te ha encontrado. Antes de que\npuedas reaccionar, un escuadrón de bomberos asalta el\ngedificio. Estás rodeado, arrestado y llevado al centro\nde detención.\n\nLos juicios son breves. El veredicto siempre es el mismo.\nTe condenan a muerte en la hoguera.",
+    "escape": "Subes al tren subterráneo que corre mientras se sumerge\nen la oscuridad. Los rails cantan bajo tus pies.\nY entonces, lentamente, el tren asciende sobre la ciudad.\n\nAllí, en las afueras, los ves: la gente de los libros.\nHombres y mujeres que han memorizado las mayores obras\nde la literatura, que se han convertido en libros vivos.\nTe dan la bienvenida entre ellos.\n\nClarisse está allí, sonriendo. \"Somos la sal de la tierra\",\ndice. \"Somos los que recordamos.\"\n\nHas escapado del mundo ardiente.",
+    "failure": "Intentaste salvar los libros, pero al final, ardieron\nde todos modos. El departamento de bomberos ha sido\nexpandido. Más Hounds patrullan las calles. Más ciudadanos\nson arrestados y quemados.\n\nEl mundo se oscurece. Y las llamas nunca paran."
+  },
+  "verbs": {
+    "look": "mirar",
+    "walk": "caminar",
+    "examine": "examinar",
+    "inventory": "inventario",
+    "take": "tomar",
+    "drop": "soltar",
+    "use": "usar",
+    "speak": "hablar",
+    "help": "ayuda",
+    "save": "guardar",
+    "load": "cargar",
+    "restart": "reiniciar",
+    "quit": "salir"
+  },
+  "directions": {
+    "north": "norte",
+    "south": "sur",
+    "east": "este",
+    "west": "oeste",
+    "up": "arriba",
+    "down": "abajo",
+    "northeast": "noreste",
+    "northwest": "noroeste",
+    "southeast": "sureste",
+    "southwest": "suroeste"
+  }
+}
