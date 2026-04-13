@@ -1,6 +1,6 @@
-# Fahrenheit 451 - Terminal Text Adventure
+# Fahrenheit 451 - Interactive fiction game refactored
 
-A modern terminal recreation of the classic MS-DOS text adventure game "Fahrenheit 451" by Telarium (1984), based on the novel by Ray Bradbury.
+A modern terminal recreation of the classic MS-DOS Interactive fiction game "Fahrenheit 451" by Telarium (1984), based on the novel by Ray Bradbury.
 
 ![Fahrenheit 451 Original Game](f451_original.jpg)
 
