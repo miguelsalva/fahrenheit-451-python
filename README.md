@@ -1,4 +1,4 @@
-# Fahrenheit 451 - Interactive fiction game refactored
+# Fahrenheit 451 - Interactive fiction game
 
 A modern terminal recreation of the classic MS-DOS Interactive fiction game "Fahrenheit 451" by Telarium (1984), based on the novel by Ray Bradbury.
 
